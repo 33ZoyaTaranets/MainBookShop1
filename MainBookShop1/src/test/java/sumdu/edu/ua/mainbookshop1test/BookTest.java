@@ -10,7 +10,7 @@ import sumdu.edu.ua.mainbookshop1.Book;
 
 public class BookTest {
     Book ab=null;
-    
+    @Test
     @BeforeAll
     public void annotInform(){
         ab=new Book();
